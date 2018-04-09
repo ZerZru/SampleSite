@@ -1,0 +1,47 @@
+body, html {
+	margin:0;
+	padding:0;
+	font-family:Verdana; /*Set family of text*/
+	font-size:25px; /*Set text-size*/
+	text-align:justify; /*Text on page-width*/
+}
+
+.menu { /*If you have a class, use '.', if you have ID, use '#'*/
+	width:100%; /*Set width*/
+	height:60px; /*Set height*/
+	background:#363636; /*Set color of Menu*/
+}
+
+.menu img { /*Change image, who use in DIV*/
+	width:60px;
+	float:left;
+}
+
+.menu li { /*Change tags 'li', who used in Menu*/
+	line-height:60px; /*Changes heigths in Menu*/
+	margin-left:50px; /*Change size between image and 'li'*/ 
+	padding:0 40px 0 0; /*Change size between 'li'*/
+	display:inline-block; /*Better used 'inline-block' for set tags in line, so for better optimisation for mobile or adaptive version*/
+}
+
+.menu li a { /*Change tags 'a', who used in 'li', who used in Menu*/
+	color:white; /*Change color*/
+	text-decoration:none; /*Clear bottom-line*/
+}
+
+.menu li a:hover { /*After cursor*/
+	transition:0.1s; /*Set transition 2 sec*/
+	border-bottom:2px solid white; /*Add bottom-line with size 2px and white color*/
+}
+
+.footer { /*Change footer*/
+	width:100%;
+	height:40px;
+	color:white;
+	background:#363636;
+}
+
+.footer a { /*Change tags 'a' in footer*/
+	color:white;
+	text-decoration:none;
+}
